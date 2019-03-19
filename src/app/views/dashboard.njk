@@ -1,1 +1,6 @@
+{% extends "_layouts/default.njk" %}
 <h1>Usuario logado</h1>
+{%block body %}
+    <h1>Olá, {{user.name}} </h1>
+    <a href="/app/logout">Sair</a>
+{% endblock %}
