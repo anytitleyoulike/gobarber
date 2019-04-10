@@ -8,11 +8,11 @@
                 <strong>{{provider.name}}</strong>
             </div>
         </div>
-        <form action="/app/appointment/new/{{provider.id}}" method="post">
+        <form action="/app/appointments/new/{{provider.id}}" method="post">
             <input type="text" class="flatpickr" placeholder="Escolha uma data"/>
             <div id="hours">
             </div>
-            
+            <button type="submit">Agendar</button>
         </form>
     </div>
 

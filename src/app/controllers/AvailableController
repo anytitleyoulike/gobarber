@@ -47,7 +47,6 @@ class AvailableController {
       }
     })
 
-    console.log('available', available);
     return res.render('available/index', { available });
   }
 }
